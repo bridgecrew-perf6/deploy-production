@@ -1,0 +1,63 @@
+{
+  "_from": "fe-deploy-cli",
+  "_id": "fe-deploy-cli@1.0.2",
+  "_inBundle": false,
+  "_integrity": "sha512-hRIitY7larBTxNlOTNnDuKY2DtRkfKo6Y96tempjX87nxC5SX3CYoAiMCowXFX7n+Uw1L9h47wtQooqcWuIyeQ==",
+  "_location": "/fe-deploy-cli",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "fe-deploy-cli",
+    "name": "fe-deploy-cli",
+    "escapedName": "fe-deploy-cli",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/fe-deploy-cli/-/fe-deploy-cli-1.0.2.tgz",
+  "_shasum": "5649a676dcf73ee51d8ec2f0fa4b68ad92b6e420",
+  "_spec": "fe-deploy-cli",
+  "_where": "C:\\Users\\87643\\Desktop\\yiosMiner-FrontEnd",
+  "author": {
+    "name": "dadaiwei"
+  },
+  "bin": {
+    "deploy": "bin/index.js"
+  },
+  "bugs": {
+    "url": "https://github.com/dadaiwei/fe-deploy-cli/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "archiver": "^3.1.1",
+    "chalk": "^3.0.0",
+    "commander": "^4.1.0",
+    "download-git-repo": "^3.0.2",
+    "inquirer": "^7.0.3",
+    "node-ssh": "^7.0.0",
+    "ora": "^4.0.3",
+    "semver": "^7.1.1"
+  },
+  "deprecated": false,
+  "description": "A cli tool for web deploy.",
+  "engines": {
+    "node": ">=9.0.0"
+  },
+  "homepage": "https://github.com/dadaiwei/fe-deploy-cli#readme",
+  "keywords": [
+    "web",
+    "node-ssh",
+    "deploy"
+  ],
+  "license": "ISC",
+  "name": "fe-deploy-cli",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dadaiwei/fe-deploy-cli.git"
+  },
+  "version": "1.0.2"
+}
